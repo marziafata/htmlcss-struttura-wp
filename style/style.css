@@ -2,3 +2,43 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 1200px;
+}
+
+header {
+    background-color: grey;
+    height: 100px;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+}
+
+#page-wrapper {
+    background-color: blue;
+    height: 900px;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+    background-color: pink;
+    float: left;
+}
+.main-content {
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+    float: left;
+}
