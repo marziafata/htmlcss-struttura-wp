@@ -27,9 +27,15 @@ footer {
 
 #page-wrapper {
     background-color: blue;
-    height: 900px;
+    height: 100%;
+    width: 100%;
 }
 
+#page-wrapper {
+    content: "";
+    display: table;
+    clear: both;
+}
 aside {
     width: 25%;
     height: 100%;
