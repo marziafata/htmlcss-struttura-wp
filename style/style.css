@@ -47,21 +47,18 @@ h2{
     text-align: center;
 }
 
-#menu {
+#menu, #menu-container {
     background-color: grey;
     height: 50px;
     position: relative;
 }
 
 #menu-container {
-    background-color: grey;
-    height: 50px;
     width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 18px;
 }
-
 
 #menu-container ul {
   list-style-type: none;
@@ -79,7 +76,6 @@ footer {
 }
 
 #page-wrapper {
-    background-color: blue;
     height: 100%;
     width: 100%;
 }
@@ -89,12 +85,20 @@ footer {
     display: table;
     clear: both;
 }
-aside {
+aside.left {
     width: 25%;
-    height: 100%;
-    background-color: pink;
+    height: 30%;
+    background-color: white;
     float: left;
 }
+
+aside.right {
+    width: 25%;
+    height: 30%;
+    background-color: white;
+    float: right;
+}
+
 #main-content {
     width: 50%;
     height: 100%;
